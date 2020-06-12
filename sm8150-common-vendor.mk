@@ -30,4 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.1.so
 
 PRODUCT_PACKAGES += \
-    libantradio
+    libantradio \
+    HotwordEnrollmentOKGoogleExWCD9340 \
+    HotwordEnrollmentXGoogleExWCD9340

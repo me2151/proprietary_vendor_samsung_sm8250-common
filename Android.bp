@@ -36,3 +36,25 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 }
+
+android_app_import {
+	name: "HotwordEnrollmentOKGoogleExWCD9340",
+	owner: "samsung",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleExWCD9340/HotwordEnrollmentOKGoogleExWCD9340.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "HotwordEnrollmentXGoogleExWCD9340",
+	owner: "samsung",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleExWCD9340/HotwordEnrollmentXGoogleExWCD9340.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
