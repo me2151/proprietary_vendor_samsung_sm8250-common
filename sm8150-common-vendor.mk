@@ -21,4 +21,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libantradio \
     HotwordEnrollmentOKGoogleExWCD9340 \
-    HotwordEnrollmentXGoogleExWCD9340
+    HotwordEnrollmentXGoogleExWCD9340 \
+    com.android.hotwordenrollment.common.util
