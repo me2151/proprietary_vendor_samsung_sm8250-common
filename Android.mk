@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter r5q,$(TARGET_DEVICE)),)
+ifneq ($(filter r5q beyond0qlte beyond1qlte beyond2qlte d1q d2q,$(TARGET_DEVICE)),)
 
 endif
